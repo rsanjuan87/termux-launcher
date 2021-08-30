@@ -22,6 +22,7 @@
         android:label="Termux Launcher"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="false"
+        android:requestLegacyExternalStorage="true"
         android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
         <activity
             android:name=".MainActivity"
